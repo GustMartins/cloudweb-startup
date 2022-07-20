@@ -1,0 +1,12 @@
+{
+  "name": "cloudweb-startup",
+  "version": "0.1.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.3.4",
+    "@architect/plugin-typescript": "^0.1.0"
+  }
+}
