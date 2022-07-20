@@ -5,12 +5,13 @@ cloudweb-startup
 get /api
 
 @static
-folder web
+fingerprint true
+folder dist
 spa true
 
 @aws
-# profile default
-region us-west-2
+profile gpmartins
+region us-east-1
 architecture arm64
 runtime typescript
 
